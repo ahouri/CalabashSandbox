@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDDE239C1BBD88480043ABF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE239B1BBD88480043ABF9 /* AppDelegate.swift */; };
+		BDDE239E1BBD88480043ABF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE239D1BBD88480043ABF9 /* ViewController.swift */; };
+		BDDE23A11BBD88480043ABF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDE239F1BBD88480043ABF9 /* Main.storyboard */; };
+		BDDE23A31BBD88480043ABF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDE23A21BBD88480043ABF9 /* Assets.xcassets */; };
+		BDDE23A61BBD88480043ABF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDE23A41BBD88480043ABF9 /* LaunchScreen.storyboard */; };
+		BDDE23B11BBD88490043ABF9 /* CalabashSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE23B01BBD88490043ABF9 /* CalabashSandboxTests.swift */; };
+		BDDE23BC1BBD88490043ABF9 /* CalabashSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE23BB1BBD88490043ABF9 /* CalabashSandboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDDE23AD1BBD88490043ABF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDE23901BBD88480043ABF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDE23971BBD88480043ABF9;
+			remoteInfo = CalabashSandbox;
+		};
+		BDDE23B81BBD88490043ABF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDE23901BBD88480043ABF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDE23971BBD88480043ABF9;
+			remoteInfo = CalabashSandbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDDE23981BBD88480043ABF9 /* CalabashSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalabashSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDE239B1BBD88480043ABF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDDE239D1BBD88480043ABF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDDE23A01BBD88480043ABF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDDE23A21BBD88480043ABF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDDE23A51BBD88480043ABF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDDE23A71BBD88480043ABF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDE23AC1BBD88490043ABF9 /* CalabashSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalabashSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDE23B01BBD88490043ABF9 /* CalabashSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalabashSandboxTests.swift; sourceTree = "<group>"; };
+		BDDE23B21BBD88490043ABF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDE23B71BBD88490043ABF9 /* CalabashSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalabashSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDE23BB1BBD88490043ABF9 /* CalabashSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalabashSandboxUITests.swift; sourceTree = "<group>"; };
+		BDDE23BD1BBD88490043ABF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDDE23951BBD88480043ABF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDE23A91BBD88490043ABF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDE23B41BBD88490043ABF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDDE238F1BBD88480043ABF9 = {
+			isa = PBXGroup;
+			children = (
+				BDDE239A1BBD88480043ABF9 /* CalabashSandbox */,
+				BDDE23AF1BBD88490043ABF9 /* CalabashSandboxTests */,
+				BDDE23BA1BBD88490043ABF9 /* CalabashSandboxUITests */,
+				BDDE23991BBD88480043ABF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDDE23991BBD88480043ABF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE23981BBD88480043ABF9 /* CalabashSandbox.app */,
+				BDDE23AC1BBD88490043ABF9 /* CalabashSandboxTests.xctest */,
+				BDDE23B71BBD88490043ABF9 /* CalabashSandboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDE239A1BBD88480043ABF9 /* CalabashSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE239B1BBD88480043ABF9 /* AppDelegate.swift */,
+				BDDE239D1BBD88480043ABF9 /* ViewController.swift */,
+				BDDE239F1BBD88480043ABF9 /* Main.storyboard */,
+				BDDE23A21BBD88480043ABF9 /* Assets.xcassets */,
+				BDDE23A41BBD88480043ABF9 /* LaunchScreen.storyboard */,
+				BDDE23A71BBD88480043ABF9 /* Info.plist */,
+			);
+			path = CalabashSandbox;
+			sourceTree = "<group>";
+		};
+		BDDE23AF1BBD88490043ABF9 /* CalabashSandboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE23B01BBD88490043ABF9 /* CalabashSandboxTests.swift */,
+				BDDE23B21BBD88490043ABF9 /* Info.plist */,
+			);
+			path = CalabashSandboxTests;
+			sourceTree = "<group>";
+		};
+		BDDE23BA1BBD88490043ABF9 /* CalabashSandboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE23BB1BBD88490043ABF9 /* CalabashSandboxUITests.swift */,
+				BDDE23BD1BBD88490043ABF9 /* Info.plist */,
+			);
+			path = CalabashSandboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDDE23971BBD88480043ABF9 /* CalabashSandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDE23C01BBD88490043ABF9 /* Build configuration list for PBXNativeTarget "CalabashSandbox" */;
+			buildPhases = (
+				BDDE23941BBD88480043ABF9 /* Sources */,
+				BDDE23951BBD88480043ABF9 /* Frameworks */,
+				BDDE23961BBD88480043ABF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalabashSandbox;
+			productName = CalabashSandbox;
+			productReference = BDDE23981BBD88480043ABF9 /* CalabashSandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDDE23AB1BBD88490043ABF9 /* CalabashSandboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDE23C31BBD88490043ABF9 /* Build configuration list for PBXNativeTarget "CalabashSandboxTests" */;
+			buildPhases = (
+				BDDE23A81BBD88490043ABF9 /* Sources */,
+				BDDE23A91BBD88490043ABF9 /* Frameworks */,
+				BDDE23AA1BBD88490043ABF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDE23AE1BBD88490043ABF9 /* PBXTargetDependency */,
+			);
+			name = CalabashSandboxTests;
+			productName = CalabashSandboxTests;
+			productReference = BDDE23AC1BBD88490043ABF9 /* CalabashSandboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDDE23B61BBD88490043ABF9 /* CalabashSandboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDE23C61BBD88490043ABF9 /* Build configuration list for PBXNativeTarget "CalabashSandboxUITests" */;
+			buildPhases = (
+				BDDE23B31BBD88490043ABF9 /* Sources */,
+				BDDE23B41BBD88490043ABF9 /* Frameworks */,
+				BDDE23B51BBD88490043ABF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDE23B91BBD88490043ABF9 /* PBXTargetDependency */,
+			);
+			name = CalabashSandboxUITests;
+			productName = CalabashSandboxUITests;
+			productReference = BDDE23B71BBD88490043ABF9 /* CalabashSandboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDDE23901BBD88480043ABF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = PatMcGuire;
+				TargetAttributes = {
+					BDDE23971BBD88480043ABF9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BDDE23AB1BBD88490043ABF9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BDDE23971BBD88480043ABF9;
+					};
+					BDDE23B61BBD88490043ABF9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BDDE23971BBD88480043ABF9;
+					};
+				};
+			};
+			buildConfigurationList = BDDE23931BBD88480043ABF9 /* Build configuration list for PBXProject "CalabashSandbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDDE238F1BBD88480043ABF9;
+			productRefGroup = BDDE23991BBD88480043ABF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDDE23971BBD88480043ABF9 /* CalabashSandbox */,
+				BDDE23AB1BBD88490043ABF9 /* CalabashSandboxTests */,
+				BDDE23B61BBD88490043ABF9 /* CalabashSandboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDDE23961BBD88480043ABF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDE23A61BBD88480043ABF9 /* LaunchScreen.storyboard in Resources */,
+				BDDE23A31BBD88480043ABF9 /* Assets.xcassets in Resources */,
+				BDDE23A11BBD88480043ABF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDE23AA1BBD88490043ABF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDE23B51BBD88490043ABF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDDE23941BBD88480043ABF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDE239E1BBD88480043ABF9 /* ViewController.swift in Sources */,
+				BDDE239C1BBD88480043ABF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDE23A81BBD88490043ABF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDE23B11BBD88490043ABF9 /* CalabashSandboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDE23B31BBD88490043ABF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDE23BC1BBD88490043ABF9 /* CalabashSandboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDDE23AE1BBD88490043ABF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDE23971BBD88480043ABF9 /* CalabashSandbox */;
+			targetProxy = BDDE23AD1BBD88490043ABF9 /* PBXContainerItemProxy */;
+		};
+		BDDE23B91BBD88490043ABF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDE23971BBD88480043ABF9 /* CalabashSandbox */;
+			targetProxy = BDDE23B81BBD88490043ABF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDDE239F1BBD88480043ABF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDE23A01BBD88480043ABF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDDE23A41BBD88480043ABF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDE23A51BBD88480043ABF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDDE23BE1BBD88490043ABF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDDE23BF1BBD88490043ABF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDDE23C11BBD88490043ABF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalabashSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Solstice.CalabashSandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDDE23C21BBD88490043ABF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalabashSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Solstice.CalabashSandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDDE23C41BBD88490043ABF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalabashSandboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Solstice.CalabashSandboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalabashSandbox.app/CalabashSandbox";
+			};
+			name = Debug;
+		};
+		BDDE23C51BBD88490043ABF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalabashSandboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Solstice.CalabashSandboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalabashSandbox.app/CalabashSandbox";
+			};
+			name = Release;
+		};
+		BDDE23C71BBD88490043ABF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CalabashSandboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Solstice.CalabashSandboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CalabashSandbox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BDDE23C81BBD88490043ABF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CalabashSandboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Solstice.CalabashSandboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CalabashSandbox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDDE23931BBD88480043ABF9 /* Build configuration list for PBXProject "CalabashSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDE23BE1BBD88490043ABF9 /* Debug */,
+				BDDE23BF1BBD88490043ABF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDE23C01BBD88490043ABF9 /* Build configuration list for PBXNativeTarget "CalabashSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDE23C11BBD88490043ABF9 /* Debug */,
+				BDDE23C21BBD88490043ABF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDDE23C31BBD88490043ABF9 /* Build configuration list for PBXNativeTarget "CalabashSandboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDE23C41BBD88490043ABF9 /* Debug */,
+				BDDE23C51BBD88490043ABF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDDE23C61BBD88490043ABF9 /* Build configuration list for PBXNativeTarget "CalabashSandboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDE23C71BBD88490043ABF9 /* Debug */,
+				BDDE23C81BBD88490043ABF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDDE23901BBD88480043ABF9 /* Project object */;
+}
